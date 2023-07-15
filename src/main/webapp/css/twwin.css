@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+h5 {
+	padding: 0px;
+	margin: 3px auto;
+	background: rgba(88, 88, 88, 1);
+}
+
+#welcome-video-container {
+	position: absolute;
+	z-index: 500;
+	bottom: 25px;
+	right: 25px;
+	padding: 2px;
+	
+}
+
+#welcome-video {
+	width: 350px;
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Poppins';
+	font-size: 15px;
+	background: rgba(21, 20, 50, 1);
+	color: white;
+}
+
+table {
+	width: 600px;
+}
+
+h1 {
+	font-family: 'Poppins', 'Arial';
+}
+
+button {
+	font-family: 'Poppins', 'Arial';
+	font-size: 15px;
+	line-height: 17px;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+	background: rgba(111, 0, 255, 1);
+	margin: 6px;
+}
+
+input {
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+
+a {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.key {
+	width: 50%;
+	background: rgba(222, 222, 222, 0.75);
+}
+
+.val {
+	width: 50%;
+	background: rgba(222, 222, 222, 0.45);
+}
+
+.star1 {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(0, 255, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star2 {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(0, 255, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star3 {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(0, 255, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star4 {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(0, 255, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star5 {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(0, 255, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star1a {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(255, 0, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star2a {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(255, 0, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star3a {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(255, 0, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star4a {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(255, 0, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.star5a {
+	font-family: 'Acme';
+	font-size: 20px;
+	background: rgba(255, 0, 0, 0.75);
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.feedtextarea {
+	width: 600px;
+	height: 50px;
+	font-family: 'Poppins';
+	font-size: 14px;
+	resize: none;
+}
+

@@ -1,0 +1,375 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+input[type="text"] {
+	color: rgba(222, 222, 222, 1);
+	border: 3px solid rgba(222, 222, 222, 1);
+	background: rgba(21, 20, 51, 1);;
+	border-radius: 5px;
+	margin: 2px 0px;
+	text-align: center;
+}
+
+input[type="password"] {
+	color: rgba(222, 222, 222, 1);;
+	border: 3px solid rgba(222, 222, 222, 1);
+	background: rgba(21, 20, 51, 1);
+	border-radius: 5px;
+	margin: 2px 0px 6px 0px;
+	text-align: center;
+}
+
+input[type="text"]:autofill, 
+input[type="password"]:autofill, 
+input[type="text"]:-internal-autofill-selected, 
+input[type="password"]:-internal-autofill-selected, 
+input[type="text"]:-webkit-autofill:hover, 
+input[type="password"]:-webkit-autofill:hover, 
+input[type="text"]:-webkit-autofill:focus, 
+input[type="password"]:-webkit-autofill:focus, 
+input[type="text"]:-webkit-autofill, 
+input[type="password"]:-webkit-autofill {
+	border: 3px solid rgba(222, 222, 222, 1);
+	background: rgba(21, 20, 51, 1);
+	border-radius: 5px;
+	outline: none;
+}
+
+#index-main-div {
+	position: relative;
+  	min-height: 100vh;
+}
+
+#index-content-div {
+	padding-bottom: 2.5rem;
+}
+
+#index-logo-div {
+	width: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+}
+
+.index-row-img {
+	width: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	height: 120px;
+	min-width: 1500px;
+}
+
+#logout-logo-div {
+	width: 100%;
+	margin: 36px auto;
+	text-align: center;
+}
+
+#index-login-div {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: rgba(222, 222, 222, 1);;
+	width: 50%;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#msg {
+	margin: 15px auto;
+	text-align: center;
+	color: rgba(2, 119, 239, 1);
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#index-login-msg {
+	margin-top: 10px;
+	text-align: right;
+	color: rgba(249, 89, 66, 1);
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#index-img-row1-div {
+	position: absolute;
+	top: 230px;
+	height: 120px;
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	min-height: 120px;
+}
+
+#index-img-row2-div {
+	position: absolute;
+	top: 750px;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0px;
+	min-height: 120px;
+}
+
+.index-img-row {
+	width: 100%; 
+	margin: 0px; 
+	padding: 0px;
+	height: 120px;
+	min-height: 120px;
+	max-height: 130px;
+}
+
+#index-reg-div {
+	position: absolute;
+	top: 350px;
+	background: rgba(127, 38, 161, 1);
+	color: white;
+	padding: 64px 0px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+#logout-img-row1-div {
+	position: absolute;
+	top: 200px;
+	height: 120px;
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	min-height: 120px;
+	max-height: 130px;
+}
+
+#logout-img-row2-div {
+	position: absolute;
+	top: 720px;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0px;
+	min-height: 120px;
+	max-height: 130px;
+}
+
+#logout-reg-div {
+	position: absolute;
+	top: 320px;
+	background: rgba(127, 38, 161, 1);
+	color: white;
+	padding: 64px 0px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+
+figure {
+	margin: 20px;
+}
+
+img {
+	margin: 0px;
+}
+
+	
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(111, 0, 255, 1);
+	padding-top: 56px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 0px;
+}
+
+h6 {
+	color: rgba(222, 222, 222, 1);
+	font-size: 16px;
+	font-weight: 800;
+	text-align: right;
+	margin: 2px 0px 6px 10px;
+}
+
+
+#indexdiv {
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+}
+
+header {
+	padding: 5px 0px;
+	text-align: right;
+}
+
+footer {
+	font-size: 16px;
+	font-weight: 300;
+	color: rgba(121, 131, 157, 1);
+	text-align: center;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 3.0rem;
+}
+
+#indexdiv1 {
+	text-align: center;
+	width: 100%;
+	padding: 40px 0px;
+}
+
+#indexdiv2 {
+	margin: 0px auto;
+	text-align: center;
+	padding: 80px 0px;
+	width: 100%;
+	background: rgba(127, 38, 161, 1);
+}
+
+#indexdiv3 {
+	margin: auto;
+	width: 1000px;
+	
+}
+
+.invertedbutton {
+	font-family: 'Poppins', 'Arial';
+	color: rgba(127, 38, 161, 1);
+	border: 0px;
+	border-radius: 40px;
+	padding: 8px;
+	height: 54px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	background: white;
+	margin-top: 16px;
+	margin-bottom: 54px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logindiv {
+	margin: 0px auto;
+	text-align: center;
+	width: 100%;
+	background: white;
+	color: black;
+	padding: 40px 0px;
+}
+
+#indextable {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.index-login-button {
+	height: 30px;
+	padding: 0px 72px;
+	margin: 36px 0px 0px 0px;
+	border-radius: 6px;
+}
+
+.index-login-button-blue {
+	font-family: 'Poppins', 'Arial';
+	background: rgba(127, 38, 161, 1);
+	color: white;
+	border: 0px;
+	border-radius: 32px;
+	padding: 4px;
+	height: 32px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.index-login-button-white {
+	font-family: 'Poppins', 'Arial';
+	color: rgba(111, 0, 255, 1);
+	background: white;
+	border: 0px;
+	border-radius: 32px;
+	padding: 4px;
+	height: 32px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.index-login-button-gray {
+	font-family: 'Poppins', 'Arial';
+	color: black;
+	background: gray;
+	border: 0px;
+	border-radius: 32px;
+	padding: 4px;
+	height: 32px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.index-login-label {
+	color: rgba(111, 0, 255, 1);
+	font-weight: 400;
+	width: 310px;
+	margin: auto;
+	text-align: left;
+}
+
+.index-member-login {
+	color: rgba(117, 45, 155, 1);
+	letter-spacing: 1.05px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+.index-forgot-pwd {
+	color: white;
+	font-weight: 500;
+}
+
